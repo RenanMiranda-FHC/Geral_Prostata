@@ -76,11 +76,11 @@ main {
 }
 
 .section--header {
-  background-image: url("../assets/header.png");
-  background-size: 100% 309px;
+  background-image: url("../assets/header.jpg");
+  background-size: 100% auto;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 309px;
+  height: min(309px, 21.458vw);
 }
 
 .section--header .container {
@@ -223,7 +223,7 @@ main {
 
 .analysis__media {
   height: 550px;
-  background-image: url("../assets/medico.png");
+  background-image: url("../assets/medico.jpg");
   background-size: cover;
   background-position: center;
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.08);
@@ -274,10 +274,6 @@ main {
   font-size: 40px;
 }
 
-.video-section .section-text {
-  /* max-width: 760px; */
-}
-
 .video-card {
   width: 760px;
   height: 420px;
@@ -291,7 +287,7 @@ main {
 .video-card__thumb {
   position: absolute;
   inset: 0;
-  background-image: url("../assets/video.png");
+  background-image: url("../assets/video.jpg");
   background-size: cover;
   background-position: center;
   filter: saturate(0.95);
@@ -352,7 +348,7 @@ main {
 
 .biopsia__media {
   min-height: 360px;
-  background-image: url("../assets/globulos.png");
+  background-image: url("../assets/globulos.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -425,6 +421,8 @@ main {
 .references {
   font-size: 13px;
   line-height: 1.55;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .references__defs {
