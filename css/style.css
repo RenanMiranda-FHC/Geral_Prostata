@@ -148,6 +148,11 @@ main {
   transition: background 0.2s ease, color 0.2s ease;
 }
 
+.quick-access__pill:hover {
+  background: var(--blue-500);
+  color: var(--white);
+}
+
 .quick-access__pill.is-active {
   background: var(--blue-500);
   color: var(--white);
