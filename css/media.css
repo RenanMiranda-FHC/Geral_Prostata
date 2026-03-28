@@ -367,7 +367,7 @@
 
 @media (max-width: 768px) {
   .hero__content {
-    padding-top: 56px;
+    padding-top: 64px;
   }
 
   .section--quick-access .quick-access {
@@ -445,7 +445,7 @@
   }
 
   .section--header {
-    background-image: url("../assets/header-mobile.png");
+    background-image: url("../assets/header-mobile.jpg");
     background-size: 100% 100%;
     background-position: center top;
     aspect-ratio: 393 / 405;
@@ -669,7 +669,7 @@
 
 @media (max-width: 480px) {
   .hero__content {
-    padding-top: 56px;
+    padding-top: 64px;
   }
 
   .section--quick-access .quick-access {
@@ -747,7 +747,7 @@
   }
 
   .section--header {
-    background-image: url("../assets/header-mobile.png");
+    background-image: url("../assets/header-mobile.jpg");
     background-size: 100% 100%;
     background-position: center top;
     aspect-ratio: 393 / 405;
@@ -959,7 +959,7 @@
 
 @media (max-width: 393px) {
   .hero__content {
-    padding-top: 56px;
+    padding-top: 64px;
   }
 
   .section--quick-access .quick-access {
@@ -1037,7 +1037,7 @@
   }
 
   .section--header {
-    background-image: url("../assets/header-mobile.png");
+    background-image: url("../assets/header-mobile.jpg");
     background-size: 100% 100%;
     background-position: center top;
     aspect-ratio: 393 / 405;
